@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    margin-bottom: 40px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.btn {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 0.2s ease;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.btn-ej1 {
+    background-color: #c600c6; /* magenta */
+}
+
+.btn-ej2 {
+    background-color: #7acc00; /* verde lima */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.form-container {
+    max-width: 500px;
+    margin: 60px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 90%;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.resultado {
+    margin-top: 30px;
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.volver {
+    display: inline-block;
+    margin-top: 25px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 90%;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+    text-align: center;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Inicio de sesión</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Inicio de sesión</h2>
+        <form method="post">
+            <input type="text" name="nombre" placeholder="Ingresa tu nombre" required>
+            <input type="password" name="contraseña" placeholder="Ingresa tu contraseña" required>
+            <button type="submit">Verificar</button>
+        </form>
+
+        {% if mensaje %}
+            <p>{{ mensaje }}</p>
+        {% endif %}
+
+        <a href="/" class="volver">Volver al menú</a>
+    </div>
+</body>
+</html>
